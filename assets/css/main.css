@@ -2820,3 +2820,26 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+  
+  /* EMIR EDIT */
+  
+  .testimage{
+	   width: 50%;
+	  height: auto;
+	  opacity: 0.2;
+	filter: brightness(0) invert(1);
+	  
+  }
+  @media screen and (max-width: 800px){
+	.testimage{
+	   width: 70%;
+	  height: auto;
+	}
+  }
+  
+  @media screen and (max-width: 600px){
+	.testimage{
+	   width: 100%;
+	  height: auto;
+	}
+  }
