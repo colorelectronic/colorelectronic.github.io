@@ -2823,14 +2823,15 @@ body.is-menu-visible #menu {
   
   /* EMIR EDIT */
   
-  layout.css.filters.enabled:true;
   
   .testimage{
 	   width: 50%;
 	  height: auto;
 	  opacity: 0.2;
-	filter: brightness(0); 
-	filter: invert(1);
+	  -webkit-transform: translateZ(0);
+	  filter: brightness(0) invert(1);
+	  
+	  
 	  
   }
   @media screen and (max-width: 800px){
