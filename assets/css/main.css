@@ -2823,6 +2823,8 @@ body.is-menu-visible #menu {
   
   /* EMIR EDIT */
   
+  layout.css.filters.enabled:true;
+  
   .testimage{
 	   width: 50%;
 	  height: auto;
