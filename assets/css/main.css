@@ -2822,7 +2822,10 @@ body.is-menu-visible #menu {
   visibility: visible; }
   
   /* EMIR EDIT */
-  
+  .googlemap{
+	  width: 600px;
+	  height: 450px;
+  }
   
   .testimage{
 	   width: 50%;
