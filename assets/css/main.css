@@ -2823,9 +2823,10 @@ body.is-menu-visible #menu {
   
 		/* EMIR EDIT */
   .menulogo{
-	  padding-top:10px;
-	  max-height:35px;
-	  min-height:30px;
+	  padding-top:7px;
+	  max-height:38px;
+	  min-height:35px;
+	  width:auto;
   }
   .googlemap{
 	  width: 100%;
