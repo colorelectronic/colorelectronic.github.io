@@ -1817,8 +1817,8 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
-  min-height: 35rem;
+  height: 31rem !important;
+  min-height: 31rem;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -2208,7 +2208,7 @@ ul.icons {
 #footer {
   background-color: #111111;
   color: rgba(255, 255, 255, 0.5);
-  padding: 8rem 0 6rem 0 ; }
+  padding: 5rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
     color: #ffffff; }
   #footer a {
@@ -2821,7 +2821,12 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
   
-  /* EMIR EDIT */
+		/* EMIR EDIT */
+  .menulogo{
+	  padding-top:10px;
+	  max-height:35px;
+	  min-height:30px;
+  }
   .googlemap{
 	  width: 100%;
 	  min-height: 350px;
@@ -2863,6 +2868,9 @@ body.is-menu-visible #menu {
 }
 
 * {box-sizing:border-box}
+
+		/* EMIR EDIT end*/
+
 
 /* Slideshow container */
 .slideshow-container {
