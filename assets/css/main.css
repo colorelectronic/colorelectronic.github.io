@@ -1776,7 +1776,7 @@ ul.icons {
     margin: 0 0 3rem 0;
     width: 100%; }
     .image.main img {
-      width: 100%; }
+      width: 010%; }
 
 /* Wrapper */
 .wrapper {
@@ -2821,68 +2821,15 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
   
-		/* EMIR EDIT */
-  .menulogo{
-	  padding-top:7px;
-	  max-height:38px;
-	  min-height:35px;
-	  width:auto;
-  }
-  .googlemap{
-	  width: 100%;
-	  min-height: 350px;
-	  height: auto;
-  }
-  
-  .testimage{
-	   width: 50%;
-	  height: auto;
-	  opacity: 1;
-	  -webkit-transform: translateZ(0);
-	  
-	  
-	  
-	  
-  }
-  @media screen and (max-width: 800px){
-	.testimage{
-	   width: 70%;
-	  height: auto;
-	}
-	
-  }
-  
-  @media screen and (max-width: 600px){
-	.testimage{
-	   width: 100%;
-	  height: auto;
-	}
-  }
-
-.iconwrapper{
-	padding-top:1rem;
-	padding-bottom:1rem;
-	
-}
-* {
-  box-sizing: border-box;
-}
-
-* {box-sizing:border-box}
-
-		/* EMIR EDIT end*/
 
 
 /* Slideshow container */
+ 
+ 
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
 }
 
 /* Next & previous buttons */
@@ -2898,7 +2845,8 @@ body.is-menu-visible #menu {
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  background-color: black;
+  opacity: .3;
 }
 
 /* Position the "next button" to the right */
@@ -2909,7 +2857,8 @@ body.is-menu-visible #menu {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: black;
+   opacity: 1;
 }
 
 /* Caption text */
@@ -2918,25 +2867,32 @@ body.is-menu-visible #menu {
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom:20px;
   width: 100%;
   text-align: center;
 }
-
+.mySlides {
+  display:none;
+}
+.active-slide {
+  display:block;
+}
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: white;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
+  background-color:black;
+  opacity: .5;
   top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -2964,4 +2920,14 @@ body.is-menu-visible #menu {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.slideshow-img {
+  max-height:600px;
+  object-fit: scale-down;
+}
+
+.testimage{
+	width:60%;
+	height:auto;
 }
