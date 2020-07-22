@@ -3085,11 +3085,6 @@ body.is-menu-visible #menu {
   cursor: pointer;
 }
 
-/* Hide the slides by default */
-.mySlides {
-  display: none;
-}
-
 /* Next & previous buttons */
 .prev,
 .next {
