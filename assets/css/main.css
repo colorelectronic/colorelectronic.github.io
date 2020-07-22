@@ -3018,13 +3018,16 @@ body.is-menu-visible #menu {
 
 /* OBRADA SLIKE  */
 .img-lightbox {
-  max-width: 250px;;
-}
-
-.row > .column {
-  padding: 0 8px;
+  width: 100%;
   
 }
+
+/*
+.row > .column {
+ 
+  
+}
+*/
 
 .row:after {
   content: "";
