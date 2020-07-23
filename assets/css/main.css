@@ -48,7 +48,7 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2441,7 +2441,8 @@ body {
     display: inline-block;
     padding: 0 0.75rem;
     text-decoration: none; }
-    #header > nav > a:hover {
+    #header > nav > a:hover
+{
       color: #ffffff; }
     #header > nav > a[href="#menu"] {
       text-decoration: none;
@@ -2821,11 +2822,9 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
   
-
+/* ||||||||||| END OF DEFAULT CSS ||||||||||||| */
 
 /* Slideshow container */
- 
- 
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -3024,13 +3023,6 @@ body.is-menu-visible #menu {
   
 }
 
-/*
-.row > .column {
- 
-  
-}
-*/
-
 .row:after {
   content: "";
   display: table;
@@ -3149,4 +3141,64 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover 
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+*/
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111111;
+  min-width: 135px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color:#FFFFFF80;
+  padding: 0px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a white color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.language-flag{
+  max-width: 25px;
+ 
+  
 }
