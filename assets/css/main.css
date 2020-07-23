@@ -2924,6 +2924,7 @@ body.is-menu-visible #menu {
 .slideshow-img {
   max-height:600px;
   object-fit: scale-down;
+  
 }
 
 .testimage{
