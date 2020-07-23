@@ -2960,6 +2960,8 @@ body.is-menu-visible #menu {
 
 /* Modal Content (Image) */
 .modal-content {
+  z-index: 999999
+  ;
   margin: auto;
   display: block;
   width: 80%;
@@ -3057,7 +3059,7 @@ body.is-menu-visible #menu {
 
 /* Modal Content */
 .modal-content {
- 
+ z-index: 9999999;
   position: relative;
   background-color: #fefefe;
   margin: auto;
