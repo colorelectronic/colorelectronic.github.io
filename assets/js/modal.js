@@ -6,7 +6,7 @@ var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
 }
 
@@ -16,9 +16,9 @@ var slideshowImages = document.getElementsByClassName("slideshow-img");
 var modalImg = document.getElementById("img01");
 
 for (var i = 0; i < slideshowImages.length; i++) {
-    slideshowImages[i].onclick = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
+  slideshowImages[i].onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
 }
