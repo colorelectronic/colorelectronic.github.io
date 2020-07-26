@@ -23,7 +23,7 @@
 		<a class="logo" href="index.html">Color Electronic</a>
 		<nav>
 			<div class="dropdown">
-				<span class="dropbtn"> <sub> <img class="language-flag"
+				<span id="language-dropdown" class="dropbtn"> <sub> <img id="langDropdownImg" class="language-flag"
 							src="https://img.icons8.com/color/48/000000/bosnia-and-herzegovina.png" /> </sub><i
 						class="fa fa-caret-down"></i>
 				</span>
@@ -69,7 +69,16 @@
 	<section id="main" class="wrapper">
 		<div class="inner">
 			<div class="content">
-				<h2>Dijelovi proizvedeni na paleti mašina Color Electronic</h2>
+				<h2>Proizvodnja dijelova po naružbi</h2>
+				<p>Color Electronic nudi usluge mašinske obrade tj. proizvodnje dijelova po narudžbi. Dugogodišnje
+					iskustvo, stručni kadar i idejna rješenja doprinose da se i najkomplikovaniji dijelovi izrade sa
+					zavidnim rezultatima i završnoj obradi. Zahvaljujući raznolikoj paleti mašina, Color Electronic je u
+					mogućnosti da samostalno vrši mašinsku obradu dijelova bez ograničavajućih faktora, bilo da se radi
+					o dijelovima jako malih dimenzija, sitnih detalja ili tolerancije koju tehnička specifikacija dijela
+					zahtjeva. U prilogu možete pogledati samo neke od dijelova koji su isporučeni zadovoljnim
+					klijentima.
+				</p>
+
 				<!-- Images used to open the lightbox -->
 				<div class="row">
 					<div class="column">
@@ -97,35 +106,81 @@
 							class="hover-shadow">
 					</div>
 					<div class="column">
-						<img src="images/img_obrada18.jpg" class="img-lightbox" onclick="openModal();currentSlide(7)"
+						<img src="images/img_obrada17.jpg" class="img-lightbox" onclick="openModal();currentSlide(7)"
 							class="hover-shadow">
 					</div>
 					<div class="column">
-						<img src="images/img_obrada17.jpg" class="img-lightbox" onclick="openModal();currentSlide(8)"
+						<img src="images/img_obrada18.jpg" class="img-lightbox" onclick="openModal();currentSlide(8)"
+							class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_obrada19.jpg" class="img-lightbox" onclick="openModal();currentSlide(5)"
+							class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_obrada20.jpg" class="img-lightbox" onclick="openModal();currentSlide(6)"
+							class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_obrada21.jpg" class="img-lightbox" onclick="openModal();currentSlide(7)"
+							class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_obrada22.jpg" class="img-lightbox" onclick="openModal();currentSlide(8)"
+							class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_obrada23.jpg" class="img-lightbox" onclick="openModal();currentSlide(7)"
+							class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_obrada24.jpg" class="img-lightbox" onclick="openModal();currentSlide(8)"
 							class="hover-shadow">
 					</div>
 				</div>
-
+				<hr>
 				<h2>Micro program</h2>
 				<div class="row">
 					<div class="column">
-						<img src="images/img_obrada1.jpg" class="img-lightbox" onclick="openModal();currentSlide(9)"
+						<img src="images/img_micro_obrada1.jpg" class="img-lightbox"
+							onclick="openModal();currentSlide(9)" class="hover-shadow">
+					</div>
+
+					<div class="column">
+						<img src="images/img_micro_obrada2.jpg" class="img-lightbox"
+							onclick="openModal();currentSlide(10)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_micro_obrada3.jpg" class="img-lightbox"
+							onclick="openModal();currentSlide(11)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="images/img_micro_obrada4.jpg" class="img-lightbox"
+							onclick="openModal();currentSlide(12)" class="hover-shadow">
+					</div>
+				</div>
+				<hr>
+				<h2>Kalupi</h2>
+				<div class="row">
+					<div class="column">
+						<img src="images/img_kalup1.jpg" class="img-lightbox" onclick="openModal();currentSlide(9)"
 							class="hover-shadow">
 					</div>
 
 					<div class="column">
-						<img src="images/img_obrada2.jpg" class="img-lightbox" onclick="openModal();currentSlide(10)"
+						<img src="images/img_kalup2.jpg" class="img-lightbox" onclick="openModal();currentSlide(10)"
 							class="hover-shadow">
 					</div>
 					<div class="column">
-						<img src="images/img_obrada3.jpg" class="img-lightbox" onclick="openModal();currentSlide(11)"
+						<img src="images/img_kalup3.jpg" class="img-lightbox" onclick="openModal();currentSlide(11)"
 							class="hover-shadow">
 					</div>
 					<div class="column">
-						<img src="images/img_obrada4.jpg" class="img-lightbox" onclick="openModal();currentSlide(12)"
+						<img src="images/.jpg" class="img-lightbox" onclick="openModal();currentSlide(12)"
 							class="hover-shadow">
 					</div>
 				</div>
+
 				<!-- The Modal/Lightbox -->
 				<div id="myModal" class="modal">
 					<span class="close cursor" onclick="closeModal()">&times;</span>
@@ -160,32 +215,56 @@
 						</div>
 						<div class="mySlides">
 							<div class="numbertext">7 / 5</div>
-							<img src="images/img_obrada18.jpg" style="width:100%">
-						</div>
-						<div class="mySlides">
-							<div class="numbertext">7 / 5</div>
 							<img src="images/img_obrada17.jpg" style="width:100%">
 						</div>
+						<div class="mySlides">
+							<div class="numbertext">8 / 5</div>
+							<img src="images/img_obrada18.jpg" style="width:100%">
+						</div>
+						<!-- Micro program -->
 
 						<div class="mySlides">
 							<div class="numbertext">1 / 4</div>
-							<img src="images/img_obrada1.jpg" style="width:100%">
+							<img src="images/img_micro_obrada1.jpg" style="width:100%">
 						</div>
 
 						<div class="mySlides">
 							<div class="numbertext">2 / 4</div>
-							<img src="images/img_obrada2.jpg" style="width:100%">
+							<img src="images/img_micro_obrada2.jpg" style="width:100%">
 						</div>
 
 						<div class="mySlides">
 							<div class="numbertext">3 / 4</div>
-							<img src="images/img_obrada3.jpg" style="width:100%">
+							<img src="images/img_micro_obrada3.jpg" style="width:100%">
 						</div>
 
 						<div class="mySlides">
 							<div class="numbertext">4 / 4</div>
-							<img src="images/img_obrada4.jpg" style="width:100%">
+							<img src="images/img_micro_obrada4.jpg" style="width:100%">
 						</div>
+
+						<!-- Kalupi -->
+
+						<div class="mySlides">
+							<div class="numbertext">1 / 4</div>
+							<img src="images/img_kalup1.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">2 / 4</div>
+							<img src="images/img_kalup2.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">3 / 4</div>
+							<img src="images/img_kalup3.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 4</div>
+							<img src="images/img_kalup4.jpg" style="width:100%">
+						</div>
+
 
 						<!-- Next/previous controls -->
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -244,6 +323,7 @@
 	<!-- Scripts -->
 
 
+	<script src="assets/js/lang.js"></script>
 	<script src="assets/js/lightbox.js"></script>
 	<script src="assets/js/ms.js"></script>
 	<script src="assets/js/jquery.min.js"></script>

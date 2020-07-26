@@ -126,7 +126,8 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 2rem 0; 
+text-align: justify;}
 
 header.special {
   text-align: center;
@@ -221,8 +222,9 @@ hr {
 input, select, textarea {
   color: #555555; }
 
-a {
-  color: #ce1b28; }
+/*a {
+
+}*/
 
 strong, b {
   color: #555555; }
@@ -1971,7 +1973,9 @@ ul.icons {
     font-size: 4rem;
     margin-bottom: 1rem; }
   #banner p {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; 
+    text-align: justify;
+    text-justify: inter-word;}
   #banner a {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none; }
@@ -3199,7 +3203,23 @@ img.hover-shadow {
 }
 
 .language-flag{
-  max-width: 25px;
- 
-  
+  max-width: 25px; 
 }
+
+
+
+.indexMenuSection{
+  text-decoration: none;
+}
+.indexMenuSection p {
+  text-align: center;
+  color:#555555;
+}
+.indexMenuSection a {
+  text-decoration: none;
+  color: #ce1b28;
+}
+.indexMenuSection h3 {
+  color: #ce1b28;
+}
+

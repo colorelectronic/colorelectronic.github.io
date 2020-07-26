@@ -9,15 +9,14 @@ var phrases = {
     },
     ger: {
         langDropdownImgSrc: "https://img.icons8.com/color/48/000000/germany.png",
-        indexTitle: "Color Electronic d.o.o. Das Unternehmen wurde 2010 in Kiseljak gegründet nicht weit von Tuzla. Es begann als Familienunternehmen im Bereich Maschinen, Elektronik und Elektrizität. Langjährige Erfahrung und Qualitätsarbeit haben dazu beigetragen, dass Color Electronic seine Reichweite im Jahr 2019 erweitert hatAktivitäten und Geschäft, wird ein erkennbarer Hersteller von Maschinenbau mit einem neuen Zentrum inGerissen.<br> Im Jahr 2020 meldete Color Electronic eines der am schnellsten wachsenden Unternehmen in Bosnien und Herzegowina und ist stolz daraufträgt ein Business Advance Certificate von Unknown.<br> <br>",
+        indexTitle: "Color Electronic d.o.o. Das Unternehmen wurde 2010 in Kiseljak gegründet nicht weit von Tuzla. Es begann als Familienunternehmen im Bereich Maschinen, Elektronik und Elektrizität. Langjährige Erfahrung und Qualitätsarbeit haben dazu beigetragen, dass Color Electronic seine Reichweite im Jahr 2019 erweitert hatAktivitäten und Geschäft, wird ein erkennbarer Hersteller von Maschinenbau mit einem neuen Zentrum inGerissen. Im Jahr 2020 meldete Color Electronic eines der am schnellsten wachsenden Unternehmen in Bosnien und Herzegowina und ist stolz daraufträgt ein Business Advance Certificate von Unknown.<br> <br>",
     },
     bos: {
         langDropdownImgSrc: "https://img.icons8.com/color/48/000000/bosnia-and-herzegovina.png",
-        indexTitle: "Color Electronic d.o.o. kompanija je osnovana 2010. godine u mjestu Kiselja nedaleko od Tuzle. Svoje djelovanje započinje kao porodični biznis u branši mašinstva, elektronike i elektrike. Dugogodišnje iskustvo i kvalitetan rad doprinosi da u 2019. godini Color Electronic proširuje svoje djelatnosti i poslovanje, te postaje prepoznatljiva Machine Building kompanija sa novim središtem u Lukavcu. < br > U 2020. godini Color Electronic poprima titulu jedne od najbrže rastućih kompanija u BiH i ponosan je nosilac Certifikata za prosperitetno poslovanje izdan od strane Unknown. < br >  <br>",
-        projektnoRazvojneUsluge: "PROJETKNO RAZVOJNE USLUGE",
+        indexTitle: "Color Electronic d.o.o. kompanija je osnovana 2010. godine u mjestu Kiseljak nedaleko od Tuzle.Svoje djelovanje započinje kao porodični biznis u branši mašinstva, elektronike i elektrike.Dugogodišnje iskustvo i kvalitetan rad doprinosi da u 2019. godini Color Electronic proširuje svojedjelatnosti i poslovanje, te postaje prepoznatljiva Machine Building kompanija sa novim središtem u Lukavcu. U 2020. godini Color Electronic prima titulu jedne od najbrže rastućih kompanija u BiH i ponosanje nosilac Certifikata za prosperitetno poslovanje izdan od strane Unknown.", projektnoRazvojneUsluge: "PROJETKNO RAZVOJNE USLUGE",
     }
 };
-
+// NE RADI JER NE MOZE DOHVATIT ID ELEMENTE OD INDEX STRANICE 
 function changeLanguage(language) {
     var indexH1 = document.getElementById("indexTitleP");
     indexH1.innerHTML = phrases[language].indexTitle;
