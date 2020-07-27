@@ -2929,8 +2929,11 @@ body.is-menu-visible #menu {
   max-height:600px;
   object-fit: scale-down;
   
+  
 }
-
+.slideshow-img:hover{
+  cursor:pointer;
+}
 .testimage{
 	width:60%;
 	height:auto;
@@ -3025,6 +3028,11 @@ body.is-menu-visible #menu {
 /* OBRADA SLIKE  */
 .img-lightbox {
   width: 100%;
+  padding-bottom: 1rem;
+  
+}
+.img-lightbox:hover {
+  cursor: pointer;
   
 }
 
