@@ -2354,12 +2354,14 @@ ul.icons {
     display: -ms-flex;
     display: flex; }
     #footer .content section {
-      width: 25%; }
+      width: 60%; }
       #footer .content section:first-child {
         width: 50%;
         padding-right: 4rem; }
       #footer .content section:last-child {
+        width: 30%;
         padding-left: 4rem; }
+       
   #footer .copyright {
     border-top: 1px solid;
     font-size: 0.8rem;
@@ -3231,3 +3233,7 @@ img.hover-shadow {
   color: #ce1b28;
 }
 
+#footer img{
+  max-height: 100px;
+  margin-right: 1rem;
+}
