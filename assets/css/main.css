@@ -2359,7 +2359,7 @@ ul.icons {
         width: 50%;
         padding-right: 4rem; }
       #footer .content section:last-child {
-        width: 30%;
+        width: 40%;
         padding-left: 4rem; }
        
   #footer .copyright {
@@ -2936,8 +2936,9 @@ body.is-menu-visible #menu {
 .slideshow-img {
   max-height:420px;
   object-fit: scale-down;
-  
-  
+}
+@media screen and (max-width: 736px) {
+  .slideshow-img {max-height: 220px;}
 }
 .slideshow-img:hover{
   cursor:pointer;
