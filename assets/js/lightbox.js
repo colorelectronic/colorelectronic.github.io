@@ -22,20 +22,40 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+function exitSlideOnOuterClick(event) {
+  if (event.keyCode == 27) {
+    document.getElementById("myModal").style.display = "none";
+  }
+}
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+  captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+
+
+
+//PITATI JASKA
+//onkeyup="exitSlideOnOuterClick(event)"
+
+//document.onkeyup = function (event) {
+ // if (event.keyCode == 27) {
+ //   document.getElementById("myModal").style.display = "none";
+ // }
+//}
+
+//pitati za nazive pdf dokumenata u novoj kartici
