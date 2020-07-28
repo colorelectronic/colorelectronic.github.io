@@ -3244,3 +3244,12 @@ img.hover-shadow {
   max-height: 90px;
   margin-right: 1rem;
 }
+
+#menuLogo{
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+#menuLogo img{
+  max-height: 29px;
+}
