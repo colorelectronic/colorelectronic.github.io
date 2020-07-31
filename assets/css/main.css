@@ -249,7 +249,7 @@ hr {
 /* Inner */
 .inner {
   margin: 0 auto;
-  width: 75rem;
+  width: 72 rem;
   max-width: calc(100% - 6rem); }
   @media screen and (max-width: 480px) {
     .inner {
@@ -2932,10 +2932,17 @@ body.is-menu-visible #menu {
 .slideshow-img:hover{
   cursor:pointer;
 }
-.testimage{
-	width:60%;
-  height:auto;
-  padding-bottom: 2rem;
+.indexLogoImage{
+  z-index: 2;
+
+}
+.indexLogoImage img{
+  width: 60%;
+}
+@media screen and (max-width: 600px) {
+  .indexLogoImage img{
+    width: 80%;
+  }
 }
 
 /*-- Click to zoom modal image */
@@ -3217,11 +3224,13 @@ img.hover-shadow {
 
 .indexMenuSection{
   text-decoration: none;
-  max-width: 250px;
+  max-width: 300px;
   padding: 1rem;
   margin:5px
   
 }
+
+
 .indexMenuSection p { 
   text-align: center;
   color:#555555;
