@@ -17,6 +17,9 @@
 </head>
 
 <body class="is-preload">
+	<button onclick="topFunction()" id="myBtnTop" title="Go to top"><span class="icon fa-arrow-up"></span>
+	</button>
+
 
 	<!-- Header -->
 	<header id="header">
@@ -49,6 +52,8 @@
 			</div>
 			<a href="#menu">Menu</a>
 		</nav>
+
+
 	</header>
 
 	<!-- Nav -->
@@ -66,6 +71,18 @@
 	<!-- Heading -->
 	<div id="heading">
 		<h1>Proizvodnja mašina</h1>
+	</div>
+
+	<!-- Navigacija/ancor po programu proizvodnje-->
+
+	<div id="proizvodnjaNav">
+		<nav>
+			<a href="#zlatarskiProgram">Zlatarske</a>
+			<a href="#kartonskiProgram">Za kartonažu</a>
+			<a href="#customProgram">Po narudžbi</a>
+			<a href="#mehSklopovi">Meh. Sklopovi</a>
+			<a href="#elUredjaji">El. Uređaji</a>
+		</nav>
 	</div>
 
 	<!-- Main -->
@@ -92,7 +109,7 @@
 
 
 		<!-- Zlatarske masine -->
-		<div class="inner">
+		<div class="inner" id="zlatarskiProgram">
 			<div class="content">
 
 				<div id="myModal" class="modal">
@@ -174,7 +191,19 @@
 
 
 				</div>
+				<h3> <b>Tehničke specifikacije: </b></h3>
+				<p> Radno područje: mm
+					<br>Min debljina materijala: mm
+					<br>Max debljina materijala:
+					<br>Ponovljivost: mm
+					<br>Mehanička preciznost:mm
+					<br>Brzina reza: mm/min
 
+					<br>CNC controler
+
+					<br><br>DODATNA OPREMA:
+					<br>Motori Senzori Funkcionalnosti
+				</p>
 				<hr>
 				<!-- ATLAS -->
 				<h2>ATLAS</h2>
@@ -226,11 +255,24 @@
 						<span class="dot"></span>
 					</div>
 				</div>
+				<h3> <b>Tehničke specifikacije: </b></h3>
+				<p> Radno područje: mm
+					<br>Min debljina materijala: mm
+					<br>Max debljina materijala:
+					<br>Ponovljivost: mm
+					<br>Mehanička preciznost:mm
+					<br>Brzina reza: mm/min
+
+					<br>CNC controler
+
+					<br><br>DODATNA OPREMA:
+					<br>Motori Senzori Funkcionalnosti
+				</p>
 			</div>
 		</div>
 
 		<!-- Program kartonske ambalaže -->
-		<div class="inner">
+		<div class="inner" id="kartonskiProgram">
 			<div class="content">
 
 				<h1 style="text-align:center;">program kartonske ambalaže</h1>
@@ -326,7 +368,20 @@
 						<span class="dot"></span>
 					</div>
 				</div>
+				<br>
+				<h3> <b>Tehničke specifikacije: </b></h3>
+				<p> Radno područje: mm
+					<br>Min debljina materijala: mm
+					<br>Max debljina materijala:
+					<br>Ponovljivost: mm
+					<br>Mehanička preciznost:mm
+					<br>Brzina reza: mm/min
 
+					<br>CNC controler
+
+					<br><br>DODATNA OPREMA:
+					<br>Motori Senzori Funkcionalnosti
+				</p>
 				<hr>
 				<h2>TSC 800</h2>
 				<p>Teleskopski konvejor je unikatna transportna traka koja ima mogućnost podešavanja dužine transportnog
@@ -423,7 +478,19 @@
 						<span class="dot"></span>
 					</div>
 				</div>
+				<h3> <b>Tehničke specifikacije: </b></h3>
+				<p> Radno područje: mm
+					<br>Min debljina materijala: mm
+					<br>Max debljina materijala:
+					<br>Ponovljivost: mm
+					<br>Mehanička preciznost:mm
+					<br>Brzina reza: mm/min
 
+					<br>CNC controler
+
+					<br><br>DODATNA OPREMA:
+					<br>Motori Senzori Funkcionalnosti
+				</p>
 				<hr>
 				<h2>RTC</h2>
 				<p>Ugaoni modul za ispravlja je kartona -- Opis</p>
@@ -479,12 +546,24 @@
 
 					</div>
 				</div>
+				<h3> <b>Tehničke specifikacije: </b></h3>
+				<p> Radno područje: mm
+					<br>Min debljina materijala: mm
+					<br>Max debljina materijala:
+					<br>Ponovljivost: mm
+					<br>Mehanička preciznost:mm
+					<br>Brzina reza: mm/min
 
+					<br>CNC controler
+
+					<br><br>DODATNA OPREMA:
+					<br>Motori Senzori Funkcionalnosti
+				</p>
 			</div>
 		</div>
 
 		<!-- Mašine po narudzbi -->
-		<div class="inner">
+		<div class="inner" id="customProgram">
 			<div class="content">
 				<h1 style="text-align:center;">Mašine po narudžbi</h1>
 				<hr>
@@ -713,7 +792,7 @@
 		</div>
 
 		<!-- Mehanicki sklopovi-->
-		<div class="inner">
+		<div class="inner" id="mehSklopovi">
 			<div class="content">
 
 
@@ -792,7 +871,7 @@
 		</div>
 
 		<!-- Elektronski uređaji -->
-		<div class="inner">
+		<div class="inner" id="elUredjaji">
 			<div class="content">
 				<h1 style="text-align:center;">ELEKTRONSKI UREĐAJI</h1>
 				<hr>
@@ -863,6 +942,8 @@
 
 	</section>
 
+
+
 	<!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
@@ -905,6 +986,7 @@
 
 	<!-- Scripts -->
 
+	<script src="assets/js/goOnTop.js"></script>
 	<script src="assets/js/lang.js"></script>
 	<script src="assets/js/ms.js"></script>
 	<script src="assets/js/jquery.min.js"></script>

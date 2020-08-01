@@ -2967,6 +2967,11 @@ body.is-menu-visible #menu {
   float: left;
   width: 25%;
 }
+@media screen and (max-width: 500px){
+  .column {
+    width: 32%;
+  }
+}
 
 /* The Modal (background) */
 .modal {
@@ -3094,11 +3099,6 @@ img.hover-shadow {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-*/
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
@@ -3138,6 +3138,8 @@ img.hover-shadow {
 }
 .highlights{
   margin: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .indexMenuSection{
@@ -3187,4 +3189,49 @@ img.hover-shadow {
 #permanentKontakt {
   display:none;
 }
+}
+#myBtnTop span{
+  color: white;
+  z-index: 5;
+}
+
+/* #555555 */
+#myBtnTop {
+  line-height: 0px;
+  width: 45px;
+  height: 45px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 25px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 5; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555555; /* Set a background color */
+  opacity: 0.7;
+  color: #ce1b28; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 100px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtnTop:hover {
+  background-color: #ce1b28; /* Add a dark-grey background on hover */
+}
+#proizvodnjaNav {
+  background-color: #111111;
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.7rem; 
+}
+
+#proizvodnjaNav a{
+  display: table-cell;
+  float: left;
+  margin: auto;
+  width: 20%;
+  text-decoration: none;
+  color: #555555;
 }
