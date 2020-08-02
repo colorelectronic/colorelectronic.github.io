@@ -3231,7 +3231,7 @@ img.hover-shadow {
   text-align: center;
   line-height: 2.7rem; 
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   #proizvodnjaNav {
     display:none;
   }
@@ -3244,10 +3244,17 @@ img.hover-shadow {
   text-decoration: none;
   color: #FFFFFF80;
 }
+#proizvodnjaNav a:hover{
+  color: white;
+}
+
 #proizvodnjaNavExpand a{
   text-decoration: none;
   color: #FFFFFF80;
   padding: none;
+}
+#proizvodnjaNavExpand a:hover{
+  color: white;
 }
 #proizvodnjaNavExpand ul{
   padding-left: 2rem;
