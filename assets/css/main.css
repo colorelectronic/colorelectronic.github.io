@@ -3262,3 +3262,12 @@ img.hover-shadow {
 #proizvodnjaNavExpand {
  
 }
+.googlemap{
+  height: 250px;
+  width: 80%;
+}
+.wrapper3{
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
