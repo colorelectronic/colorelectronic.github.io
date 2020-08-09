@@ -3271,3 +3271,32 @@ img.hover-shadow {
   margin: auto;
   text-align: center;
 }
+
+.uslugeTitle{
+  padding-left: 4rem;
+  padding-top: 3rem; 
+  color:#ce1b28;
+}
+
+.uslugeText{
+  padding-left: 7rem;
+   width:50%;
+}
+
+@media screen and (max-width: 850px) {
+  .uslugeText {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .uslugeText {
+    width: 95%;
+    padding-left: 10px;
+  }
+  .uslugeTitle{
+    text-align: center;
+    padding-left: 0px;
+    color:#ce1b28;
+  }
+}
