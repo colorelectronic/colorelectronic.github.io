@@ -3282,10 +3282,17 @@ img.hover-shadow {
   padding-left: 7rem;
    width:50%;
 }
-
+.img-usluge{
+  height: 200px;
+  padding-left: 150px;
+}
 @media screen and (max-width: 850px) {
   .uslugeText {
     width: 90%;
+  }
+  .img-usluge{
+    height: 200px;
+    padding-left: 15px;
   }
 }
 
